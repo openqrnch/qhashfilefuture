@@ -1,0 +1,15 @@
+[package]
+name = "qhashfilefuture"
+version = "0.9.0"
+authors = ["Jan Danielsson <jan.danielsson@qrnch.com>"]
+edition = "2018"
+license = "0BSD"
+keywords = [ "future", "hash" ]
+repository = "https://github.com/openqrnch/qhashfilefuture"
+description = "Future for hashing single file."
+exclude = [ "tag.sh", "publish.sh" ]
+
+[dependencies]
+sha2 = "0.9.0"
+hex = "0.4.2"
+
