@@ -12,7 +12,7 @@ use {
   sha2::{Sha256, Sha512, Digest}
 };
 
-use err::Error;
+pub use err::Error;
 
 pub enum HashAlg {
   Sha2_256,
